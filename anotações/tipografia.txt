@@ -1,0 +1,10 @@
+TIPOGRAFIA
+
+Altura x = Todas as letras minúsculas de uma fonte são baseadas no tamanho da letra X
+
+Ascendente e descendente = Altura que as letras vazaram em relação a altura x, ascendente se referindo a altura que vazou para cima e descendente a altura que vazou para baixo.
+
+Altura do corpo é usado para se referir a altura total.
+
+Glifo = letra/caracteres
+Conjuntos de glifos = fonte

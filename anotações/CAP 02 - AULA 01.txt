@@ -1,0 +1,7 @@
+COMO FUNCIONA A INTERNET
+
+
+ Dominio = Nome que se refere o site. - nome único, pago anualmente e vários TLDs
+
+Hospedagem = Espaço para armazenar arquivos, pago mensalmente, pode ter diferentes espaços, memória e recuros.
+
