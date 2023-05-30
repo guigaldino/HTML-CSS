@@ -1,14 +1,15 @@
-@charset "UTF-8";   
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root{
+:root {
     --fonte-padrao: 'Passion One', 'Arial';
     --fonte-destaque: 'Sriracha', 'Arial';
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
