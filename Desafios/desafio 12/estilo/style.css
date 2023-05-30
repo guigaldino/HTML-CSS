@@ -1,64 +1,83 @@
 @charset "UTF-8";
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', ' cursive';
+    --fonte3: 'Sriracha', 'cursive';
+}
+
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html, body{
+html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
-header{
+header {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-header h1{
+header h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 9vw;
 }
 
-header p{
+header p {
     padding-bottom: 50px;
 }
 
-section{
+section {
+    font-size: 3.3vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2;
+    font-family: var(--fonte3);
 }
-.normal{
+
+.normal {
     background-color: white;
     color: black;
 }
 
-.imagem{
+.imagem {
     background-color: rgb(87, 87, 87);
     color: white;
 }
 
-.imagem p{
+.imagem p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.596);
     color: white;
     width: 400px;
+    padding: 5px;
+    
 }
 
 
-a{
+a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     text-align: center;
