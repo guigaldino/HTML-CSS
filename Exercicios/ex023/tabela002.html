@@ -15,8 +15,15 @@
         }
 
         table{
+            margin: auto;
             width: 500px;
             border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 20px;
         }
 
         td, th{
@@ -42,6 +49,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
             TABLE
+                CAPTION
                 THEAD
                 TBODY
                 TFOOT
@@ -50,9 +58,11 @@
         <table>
             
             <thead>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 80px;">População</th>
             </thead>
+
+            <caption>População dos estados brasileiros</caption>
 
             <tbody>
               
@@ -195,8 +205,8 @@
 
             <tfoot>
                 <tr>
-                    <th>Total de habitantes</th>
-                    <td class="num">213.317.639</td>
+                    <th scope="row">Total de habitantes</th>
+                    <td scope="row" class="num"><strong>213.317.639</strong></td>
                 </tr>
             </tfoot>
 
