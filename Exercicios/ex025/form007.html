@@ -12,7 +12,7 @@
 
     <h1>Exemplo de Formulário</h1>
 
-    <form action="cadastro.js" method="get">
+    <form action="cadastro.js" method="post" >
     
         <p>
             <label for="iest">Estado</label>
@@ -50,6 +50,11 @@
                 <option >Desenvolvedor</option>
                 <option >Professor</option>
             </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" maxlength="300"></textarea>
         </p>
     </form>
 
