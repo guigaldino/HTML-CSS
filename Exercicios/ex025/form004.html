@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 04</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.js" method="get">
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required maxlength="30" minlength="3" placeholder="Nome completo">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required autocomplete="email" placeholder="Email de contato">
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" required placeholder="(xx)xxxx-xxxx">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+            
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
