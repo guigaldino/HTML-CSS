@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Emberly';
+    src: url(../fontes/Emberly-Black.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*Modificações Gerais*/
 
 /* #383F51
@@ -7,14 +14,18 @@
 #3C4F76
 #D1BEB0
 #AB9F9D */
+/* #0D152B */
+/* #B98741 */
+/* #033A7F */
 
 :root {
     --cor0: #ebe5c5;
     --cor1: #383F51;
     --cor2: #DDDBF1;
-    --cor3: #3C4F76;
-    --cor4: #D1BEB0;
+    --cor3: #0D152B;
+    --cor4: #ebcaa1;
     --cor5: #AB9F9D;
+    --cor6: #B98741;
 }
 
 * {
@@ -28,15 +39,17 @@ body {
 }
 
 header {
-    background-color: var(--cor1);
+    background-color: var(--cor3);
 
 }
 
 header h1 {
-    color: white;
+    color: var(--cor6);
+    font-family: 'Emberly', sans-serif;
     text-align: center;
-    font-size: 2.6em;
+    font-size: 4.5em;
     padding: 25px;
+    
     text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.285);
 
 }
@@ -44,13 +57,13 @@ header h1 {
 span#burguer{
     display: block;
     text-align: center;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     padding: 8px;
     color: white;
 }
 
 span#burguer:hover{
-    background-color: var(--cor3);
+    background-color: #1a264c;
     cursor: pointer;
 }
 
@@ -65,18 +78,20 @@ menu ul {
 }
 
 menu a {
+    font-family: 'Emberly', sans-serif;
     display: block;
-    color: white;
+    color: var(--cor6);
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    font-size: 1.1em;
-    background-color: var(--cor1);
+    font-size: 1.5em;
+    background-color: var(--cor3);
+    font-weight: bold;
     border-top: 1.3px solid black;
 }
 
 menu a:hover {
-    background-color: var(--cor3);
+    background-color: #1a264c;
 }
 
 main {
@@ -89,10 +104,11 @@ main {
 }
 
 article h2 {
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     text-indent: 30px;
-    font-size: 1.9em;
+    font-size: 2em;
 }
 
 article p {
@@ -109,8 +125,8 @@ footer p {
     margin-top: 10px;
     padding: 12px;
     text-align: center;
-    background-color: var(--cor1);
-    color: white;
+    background-color: var(--cor3);
+    color: var(--cor6);
 }
 
 footer a {
@@ -123,5 +139,5 @@ footer a:hover {
 }
 
 footer a:visited {
-    color: white;
+    color: var(--cor6);
 }
