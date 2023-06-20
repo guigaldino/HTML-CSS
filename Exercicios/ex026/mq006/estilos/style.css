@@ -37,6 +37,8 @@ header h1 {
     text-align: center;
     font-size: 2.6em;
     padding: 25px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.285);
+
 }
 
 span#burguer{
@@ -54,6 +56,7 @@ span#burguer:hover{
 
 menu {
     display: block;
+    box-shadow:  8px 8px 8px rgba(0, 0, 0, 0.158);
 }
 
 menu ul {
@@ -82,10 +85,14 @@ main {
     padding: 10px;
     border-radius: 0px 0px 15px 15px;
     width: 90vw;
+    box-shadow: 5px 9px 12px rgba(0, 0, 0, 0.196);
 }
 
 article h2 {
+    padding-top: 10px;
     padding-bottom: 10px;
+    text-indent: 30px;
+    font-size: 1.9em;
 }
 
 article p {

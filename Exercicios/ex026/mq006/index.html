@@ -12,7 +12,7 @@
     <title>Formal Clothes</title>
 </head>
 
-<body>
+<body onresize="mudaTamanho()">
 
     <header>
         <h1>Formal Clothes</h1>
@@ -89,6 +89,14 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+        }
+
+        function mudaTamanho(){
+            if(window.innerWidth >= 992){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
