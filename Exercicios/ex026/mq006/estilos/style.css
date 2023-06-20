@@ -14,27 +14,107 @@
     --cor2: #DDDBF1;
     --cor3: #3C4F76;
     --cor4: #D1BEB0;
-    --cor5: #AB9F9D;    
+    --cor5: #AB9F9D;
 }
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-header{
-    background-color: var(--cor1);
-   
+body {
+    background-color: var(--cor4);
 }
 
-header h1{
+header {
+    background-color: var(--cor1);
+
+}
+
+header h1 {
     color: white;
     text-align: center;
-    padding: 30px;
+    font-size: 2.6em;
+    padding: 25px;
 }
 
-menu ul{
+span#burguer{
+    display: block;
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 8px;
+    color: white;
+}
+
+span#burguer:hover{
+    background-color: var(--cor3);
+    cursor: pointer;
+}
+
+menu {
+    display: block;
+}
+
+menu ul {
     list-style-type: none;
+
 }
 
+menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: var(--cor1);
+    border-top: 1.3px solid black;
+}
+
+menu a:hover {
+    background-color: var(--cor3);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+    width: 90vw;
+}
+
+article h2 {
+    padding-bottom: 10px;
+}
+
+article p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div.imagem_modelo {
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+    padding: 12px;
+    text-align: center;
+    background-color: var(--cor1);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: white;
+}
