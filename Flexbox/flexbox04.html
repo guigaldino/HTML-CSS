@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow e Flex-Shrink</title>
+
+    <style>
+        .flexbox {
+            display: flex;
+            height: 250px;
+            border: 3px solid red;
+            margin-bottom: 16px;
+        }
+
+        .flexbox div {
+            border: 2px solid orange;
+            width: 500px;
+            margin: 15px;
+        }
+          .flex-container1{
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            gap: 15px;
+        }
+
+        .flex-container1 div{
+            background-color: orange;
+            flex-basis: 50px;
+            margin: 0;
+        }
+
+        .flex-container1 .div2{
+            flex-grow: 1;
+            
+        }    
+
+        .flex-container1 .div4{
+            flex-grow: 3;
+        }
+
+        .flex-container2{
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            gap: 15px;
+        }
+
+        .flex-container2 div{
+            background-color: blue;
+            flex-basis: 150px;
+            margin: 0;
+        }
+
+        .flex-container2 .div1{
+            flex-shrink: 2
+        }
+
+        .flex-container2 .div3{
+            /* flex-shrink: 3; */
+            
+            flex: 1 3 200px; 
+            
+            /*Atalho para flex-grow, flex-shrink e flex-basis*/
+        }
+        
+          
+    </style>
+
+</head>
+
+<body>
+
+    <div class="flexbox flex-container1">
+        <h1>Flex Grow</h1>
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+    
+    <div class="flexbox flex-container2">
+        <!-- <h1>Flex Shrink</h1> -->
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+</body>
+
+</html>
