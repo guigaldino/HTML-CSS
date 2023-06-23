@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basis</title>
+
+    <style>
+          .flexbox {
+            display: flex;
+            height: 250px;
+            border: 3px solid red;
+            margin-bottom: 16px;
+        }
+
+        .flexbox div {
+            border: 2px solid orange;
+            width: 500px;
+            margin: 15px;
+        }
+          .flex-container1{
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+        .flex-container1 div{
+            background-color: yellow;
+            width: 50px;
+            height: 30px;
+        }
+
+        .flex-container1 .div2{
+            flex-basis: 200px ;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <body>
+    
+        <div class="flexbox flex-container1">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+    
+    </body>
+</body>
+
+</html>
