@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-align e order</title>
+
+    <style>
+          .flexbox {
+            display: flex;
+            height: 250px;
+            border: 3px solid red;
+            margin-bottom: 16px;
+        }
+
+        .flexbox div {
+            border: 2px solid orange;
+            width: 500px;
+            margin: 15px;
+        }
+
+        .flex-container1{
+            flex-direction: row;
+        }
+
+        .flex-container1 div{
+            background-color: green;
+            font-size: 36px;
+            color: white;
+        }
+
+        .flex-container1 .div2{
+            order: 1;
+            align-self: center;
+        }
+
+        .flex-container1 .div1{
+            order: 2;
+            align-self: flex-end;
+        }
+
+        .flex-container1 .div3{
+            align-self: flex-start;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="flexbox flex-container1">
+        <h1></h1>
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+</body>
+
+</html>
